@@ -11,20 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marciamoss.jobs"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marciamoss.jobs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": ["jobs", "fb1235433870700916"],
+    "extra": {
+      "eas": {
+        "projectId": "f9627288-3a60-4ae0-bff9-05a4f5618303"
+      }
+    },
+    "owner": "marciamoss"
   }
 }

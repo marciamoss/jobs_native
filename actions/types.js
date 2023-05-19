@@ -1,0 +1,10 @@
+export const FACEBOOK_LOGIN_SUCCESS = "facebook_login_success";
+export const FACEBOOK_LOGIN_FAIL = "facebook_login_fail";
+export const FETCH_JOBS = "fetch_jobs";
+export const SET_REGION = "set_region";
+export const LIKE_JOB = "like_job";
+export const CLEAR_LIKED_JOBS = "clear_liked_jobs";
+export const SET_ERROR = "set_error";
+export const RESET_ERROR = "reset_error";
+export const NO_JOBS = "no_jobs";
+export const RESET_NO_JOBS = "reset_no_jobs";
